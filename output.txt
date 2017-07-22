@@ -1,0 +1,262 @@
+Script started on Fri 14 Apr 2017 09:30:22 PM EDT
+hchen224@matrix:~/OOP224/ms5> fp
+The Sene-Store
+1- List items
+2- Add Perishable item
+3- Add Non-Perishable item
+4- Update item quantity
+5- Show Item
+6- POS
+0- exit program
+> 1
+
+ Row | SKU    | Item Name          | Price |TX |Qty |   Total |
+-----|--------|--------------------|-------|---|----|---------|
+   1 | 1234   |Milk                |   3.99|  P|   1|     3.99|
+   2 | 3456   |Paper Cups          |   5.99| TN|  38|   257.21|
+   3 | 4567   |Butter              |   4.56| TP|   9|    46.38|
+   4 | 1212   |Salted Butter       |   5.99|  P| 108|   646.92|
+   5 | 1313   |Paper Tissue        |   1.22| TN| 204|   281.23|
+   6 | 5656   |Honey               |  12.99| TP|  10|   146.79|
+   7 | 1596   |Royal Gala Apples   |   4.42|  P|  10|    44.20|
+   8 | 3695   |Honeydew Melon      |   5.99|  P|  20|   119.80|
+   9 | 6458   |Blueberries         |   3.99|  P|  30|   119.70|
+  10 | 9852   |Seedless Grapes     |  10.56|  P|  20|   211.20|
+  11 | 3214   |Pomegranate         |   2.50|  P|   5|    12.50|
+  12 | 7913   |Banana              |   0.44|  P| 100|    44.00|
+  13 | 9462   |Kiwifruit           |   0.50|  P| 123|    61.50|
+  14 | 3815   |Chicken Alfredo     |   4.49| TP|  20|   101.47|
+  15 | 5496   |Veal Parmigiana     |   5.49| TP|   3|    18.61|
+  16 | 3854   |Beffsteak Pie       |   5.29| TP|  40|   239.11|
+  17 | 2564   |Curry Checken       |   4.79| TP|  30|   162.38|
+  18 | 9318   |Tide Detergent      |  16.99| TN|  10|   191.99|
+  19 | 4297   |Lays Chips S&V      |   3.69| TP|   1|     4.17|
+  20 | 6539   |Joe Org Chips       |   3.29| TP|  15|    55.77|
+  21 | 1679   |Jack's Apple Juice  |   1.50|  P|  80|   120.00|
+  22 | 3512   |Coke 12 Pack        |   6.69| TP|  30|   226.79|
+  23 | 3461   |Nestea 12 Pack      |   7.29| TP|  50|   411.88|
+  24 | 5228   |7up 12 pack         |   6.49| TP|  20|   146.67|
+  25 | 1627   |Peaches             |   1.44|  P|  14|    20.16|
+-----^--------^--------------------^-------^---^----^---------^
+                                     Total: $  |       3694.42|
+-----^--------^--------------------^-------^---^----^---------^
+The Sene-Store
+1- List items
+2- Add Perishable item
+3- Add Non-Perishable item
+4- Update item quantity
+5- Show Item
+6- POS
+0- exit program
+> 3 5
+
+
+Please enter the SKU: 1234
+Name: 
+Milk
+Sku: 1234
+Price: 3.99
+Price after tax: 3.99
+Quantity: 1
+Total Cost: 3.99
+
+The Sene-Store
+1- List items
+2- Add Perishable item
+3- Add Non-Perishable item
+4- Update item quantity
+5- Show Item
+6- POS
+0- exit program
+> 4
+
+Please enter the SKU: 1234
+Name:
+Milk
+Sku: 1234
+Price: 3.99
+Price after tax: N/A
+Quantity: 1
+Total Cost: 3.99
+
+Please enter the number of purchased items: 99
+updated!
+
+The Sene-Store
+1- List items
+2- Add Perishable item
+3- Add Non-Perishable item
+4- Update item quantity
+5- Show Item
+6- POS
+0- exit program
+> 1
+
+ Row | SKU    | Item Name          | Price |TX |Qty |   Total |
+-----|--------|--------------------|-------|---|----|---------|
+   1 | 1234   |Milk                |   3.99|  P| 100|   399.00|
+   2 | 3456   |Paper Cups          |   5.99| TN|  38|   257.21|
+   3 | 4567   |Butter              |   4.56| TP|   9|    46.38|
+   4 | 1212   |Salted Butter       |   5.99|  P| 108|   646.92|
+   5 | 1313   |Paper Tissue        |   1.22| TN| 204|   281.23|
+   6 | 5656   |Honey               |  12.99| TP|  10|   146.79|
+   7 | 1596   |Royal Gala Apples   |   4.42|  P|  10|    44.20|
+   8 | 3695   |Honeydew Melon      |   5.99|  P|  20|   119.80|
+   9 | 6458   |Blueberries         |   3.99|  P|  30|   119.70|
+  10 | 9852   |Seedless Grapes     |  10.56|  P|  20|   211.20|
+  11 | 3214   |Pomegranate         |   2.50|  P|   5|    12.50|
+  12 | 7913   |Banana              |   0.44|  P| 100|    44.00|
+  13 | 9462   |Kiwifruit           |   0.50|  P| 123|    61.50|
+  14 | 3815   |Chicken Alfredo     |   4.49| TP|  20|   101.47|
+  15 | 5496   |Veal Parmigiana     |   5.49| TP|   3|    18.61|
+  16 | 3854   |Beffsteak Pie       |   5.29| TP|  40|   239.11|
+  17 | 2564   |Curry Checken       |   4.79| TP|  30|   162.38|
+  18 | 9318   |Tide Detergent      |  16.99| TN|  10|   191.99|
+  19 | 4297   |Lays Chips S&V      |   3.69| TP|   1|     4.17|
+  20 | 6539   |Joe Org Chips       |   3.29| TP|  15|    55.77|
+  21 | 1679   |Jack's Apple Juice  |   1.50|  P|  80|   120.00|
+  22 | 3512   |Coke 12 Pack        |   6.69| TP|  30|   226.79|
+  23 | 3461   |Nestea 12 Pack      |   7.29| TP|  50|   411.88|
+  24 | 5228   |7up 12 pack         |   6.49| TP|  20|   146.67|
+  25 | 1627   |Peaches             |   1.44|  P|  14|    20.16|
+-----^--------^--------------------^-------^---^----^---------^
+                                     Total: $  |       4089.43|
+-----^--------^--------------------^-------^---^----^---------^
+The Sene-Store
+1- List items
+2- Add Perishable item
+3- Add Non-Perishable item
+4- Update item quantity
+5- Show Item
+6- POS
+0- exit program
+> 2
+
+Perishable Item Entry:
+Sku: 1111
+Name:
+a
+Price: 1
+Taxed: y
+Quantity: 1
+Expiry date (YYYY/MM/DD): 2015/09/11
+Item added.
+
+The Sene-Store
+1- List items
+2- Add Perishable item
+3- Add Non-Perishable item
+4- Update item quantity
+5- Show Item
+6- POS
+0- exit program
+> 3
+
+Item Entry:
+Sku: 2222
+Name:
+b
+Price: 1
+Taxed: n
+Quantity: 1
+Item added.
+
+The Sene-Store
+1- List items
+2- Add Perishable item
+3- Add Non-Perishable item
+4- Update item quantity
+5- Show Item
+6- POS
+0- exit program
+> 1
+
+ Row | SKU    | Item Name          | Price |TX |Qty |   Total |
+-----|--------|--------------------|-------|---|----|---------|
+   1 | 1234   |Milk                |   3.99|  P| 100|   399.00|
+   2 | 3456   |Paper Cups          |   5.99| TN|  38|   257.21|
+   3 | 4567   |Butter              |   4.56| TP|   9|    46.38|
+   4 | 1212   |Salted Butter       |   5.99|  P| 108|   646.92|
+   5 | 1313   |Paper Tissue        |   1.22| TN| 204|   281.23|
+   6 | 5656   |Honey               |  12.99| TP|  10|   146.79|
+   7 | 1596   |Royal Gala Apples   |   4.42|  P|  10|    44.20|
+   8 | 3695   |Honeydew Melon      |   5.99|  P|  20|   119.80|
+   9 | 6458   |Blueberries         |   3.99|  P|  30|   119.70|
+  10 | 9852   |Seedless Grapes     |  10.56|  P|  20|   211.20|
+  11 | 3214   |Pomegranate         |   2.50|  P|   5|    12.50|
+  12 | 7913   |Banana              |   0.44|  P| 100|    44.00|
+  13 | 9462   |Kiwifruit           |   0.50|  P| 123|    61.50|
+  14 | 3815   |Chicken Alfredo     |   4.49| TP|  20|   101.47|
+  15 | 5496   |Veal Parmigiana     |   5.49| TP|   3|    18.61|
+  16 | 3854   |Beffsteak Pie       |   5.29| TP|  40|   239.11|
+  17 | 2564   |Curry Checken       |   4.79| TP|  30|   162.38|
+  18 | 9318   |Tide Detergent      |  16.99| TN|  10|   191.99|
+  19 | 4297   |Lays Chips S&V      |   3.69| TP|   1|     4.17|
+  20 | 6539   |Joe Org Chips       |   3.29| TP|  15|    55.77|
+  21 | 1679   |Jack's Apple Juice  |   1.50|  P|  80|   120.00|
+  22 | 3512   |Coke 12 Pack        |   6.69| TP|  30|   226.79|
+  23 | 3461   |Nestea 12 Pack      |   7.29| TP|  50|   411.88|
+  24 | 5228   |7up 12 pack         |   6.49| TP|  20|   146.67|
+  25 | 1627   |Peaches             |   1.44|  P|  14|    20.16|
+  26 |        |                    |   0.00| TP|134518652|     0.00|
+  27 | 1111   |a                   |   1.00| TP|   1|     1.13|
+-----^--------^--------------------^-------^---^----^---------^
+                                     Total: $  |       4090.56|
+-----^--------^--------------------^-------^---^----^---------^
+The Sene-Store
+1- List items
+2- Add Perishable item
+3- Add Non-Perishable item
+4- Update item quantity
+5- Show Item
+6- POS
+0- exit program
+> 3
+
+Item Entry:
+Sku: 5555
+Name:
+c
+Price: 1
+Taxed: y
+Quantity: 1
+Item added.
+
+The Sene-Store
+1- List items
+2- Add Perishable item
+3- Add Non-Perishable item
+4- Update item quantity
+5- Show Item
+6- POS
+0- exit program
+> 6
+
+Please enter the SKU: 1234
+v-----------------------------------v
+| Milk
+v-----------------------------------v
+Please enter the SKU: 
+v--------------------------------------------------------v
+| 2017/04/14, 21:32                                      |
+| SKU    | Item Name          | Price |TX |Qty |   Total |
+|--------|--------------------|-------|---|----|---------|
+| 1234   |Milk                |   3.99|  P|   1|     3.99|
+| 1234   |Milk                |   3.99|  P|   1|     3.99|
+^--------^--------------------^-------^---^----^---------^
+|                                 Total $ |          7.98|
+v--------------------------------------------------------v
+The Sene-Store
+1- List items
+2- Add Perishable item
+3- Add Non-Perishable item
+4- Update item quantity
+5- Show Item
+6- POS
+0- exit program
+> 0
+
+Goodbye!hchen224@matrix:~/OOP224/ms5> exit
+exit
+
+Script done on Fri 14 Apr 2017 09:33:02 PM EDT

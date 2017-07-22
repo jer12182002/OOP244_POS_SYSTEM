@@ -1,0 +1,62 @@
+void PosApp::showBill() {
+		char sku[MAX_NO_ITEMS],id='O';
+		double total = 0;
+		Item* item;
+		fstream fileIn(m_billfname, ios::in);
+		if (!fileIn.fail())
+		{
+			cout << "v--------------------------------------------------------v" << endl;
+			cout << "| " << Date() << setfill(' ') << setw(39) << "|" << endl;
+			cout << "| SKU    | Item Name          | Price |TX |Qty |   Total |" << endl;
+			cout << "|--------|--------------------|-------|---|----|---------|" << endl;
+			//while(fileIn)  //this will have error
+			while (!fileIn.eof())
+			{
+			
+				fileIn >> id;
+				fileIn.ignore();
+			
+
+				(id == 'P'&&id!='O') ? item = new Perishable() : item = new NonPerishable();
+					item->load(fileIn);
+					total += item->cost();
+					
+				cout << "| ";
+				item->write(cout, 1);
+				cout << endl;
+
+			}
+
+			cout << "^--------^--------------------^-------^---^----^---------^" << endl;
+			cout << "|                                 Total $ |";
+			cout << setw(14)<<right << fixed << setprecision(2) << total <<'|'<< endl;
+			cout << "v--------------------------------------------------------v" << endl;
+		}
+		fileIn.close();
+		PosApp::truncateBillFile();
+
+	}
+
+void PosApp::addToBill(Item& I){
+		//cout << "~~~~~~~~~AddBill";
+		int quantity = I.quantity();
+		fstream fileIn(m_billfname, ios::out | ios::app);
+
+		if (I.quantity() > 0)
+		{
+			I.quantity(1);
+			I.save(fileIn);
+			I.quantity(quantity - 1);
+			
+		}
+
+		fileIn.close();
+		PosApp::saveRecs();
+	}
+
+these two parts were collaborated with Hassan Assowe
+the reason why I choose to do the open submission is becuase I couldnt get the posapp.txt and I have to work everyday.
+I really have no time to make the posapp.txt list by myself.
+
+Please don't give me the late submission penality, because I really can not find time to do it.
+I will try to do the short submission when I have time after the final.
